@@ -12,7 +12,7 @@
     <main>
         <div class="mainChild">
             <h1>Register</h1>
-            <form action="register.php" method="POST">
+            <form action="logic/register.php" method="POST">
                 <input type="email" name="email" class="form-control" placeholder="Enter your email">
 
                 <input type="text" name="login" class="form-control" placeholder="Enter your login">

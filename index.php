@@ -1,3 +1,11 @@
+<?php 
+session_start(); 
+if(!isset($_SESSION["user_id"])) {
+    header("Location: login.php");
+    exit;
+} 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,5 +17,6 @@
 <body>
     <?php include "include/header.php"; ?>
     <h1>Yay</h1>
+    <a href="logic/logout.php">Log out</a>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<?php include "config/database.php" ?>
+<?php require "config/database.php" ?>
 
 <header class="d-flex p-3 justify-content-between align-items-center">
     <h1>Baza C.</h1>

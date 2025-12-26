@@ -12,7 +12,7 @@
     <main>
         <div class="mainChild">
             <h1>Login</h1>
-            <form action="" method="POST">
+            <form action="logic/login.php" method="POST">
                 <input type="text" name="login" class="form-control" placeholder="Enter your login">
 
                 <input type="password" name="password" class="form-control" placeholder="Enter your password">
